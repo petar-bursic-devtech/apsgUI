@@ -8,8 +8,7 @@
  */
 
 var apsgUI = angular.module('apsgUI', [
-    'ngRoute',
-    'myApp.view2'
+    'ngRoute'
 ]).
 config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/login'});
