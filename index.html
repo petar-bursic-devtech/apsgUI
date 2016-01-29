@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="apsgUI">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>APSGUI</title>
+
+  <link rel="stylesheet" href="libs/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="libs/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="libs/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+  <ul class="menu">
+    <li><a href="#/login">login</a></li>
+    <li><a href="#/administration">administration</a></li>
+  </ul>
+
+  <div>
+      <ng-view></ng-view>
+  </div>
+
+  <script src="libs/jquery/dist/jquery.js"></script>
+  <script src="libs/angular/angular.js"></script>
+  <script src="libs/angular-route/angular-route.js"></script>
+
+  <!-- Angular modules-->
+  <script src="app/app.js"></script>
+  <script src="app/view2/view2.js"></script>
+
+  <!-- Controllers -->
+  <script src="app/controllers/mainCtrl.js"></script>
+  <script src="app/controllers/loginCtrl.js"></script>
+  <script src="app/controllers/adminCtrl.js"></script>
+  <!-- Services -->
+  <!-- Filters -->
+  <!-- Directives -->
+</body>
+</html>

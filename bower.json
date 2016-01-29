@@ -1,0 +1,27 @@
+{
+  "name": "APSGUI",
+  "version": "0.1.0",
+  "homepage": "",
+  "authors": [
+    "Devtech"
+  ],
+  "description": "APSG client side application that will be used for exposing overall project functionalities to the end user",
+  "main": "index.html",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+	"jquery": "~2.2.0",
+	"jquery-ui": "~1.11.2",
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+	"bootstrap": "~3.2.0"
+  },
+  "resolutions": {
+    "jquery": "~2.2.0",
+    "angular": "~1.4.0",
+    "bootstrap": "~3.2.0"
+  }
+}

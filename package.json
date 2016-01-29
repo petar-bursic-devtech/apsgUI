@@ -1,0 +1,23 @@
+{
+  "name": "APSGUI",
+  "private": true,
+  "version": "0.1.0",
+  "description": "APSG client side application that will be used for exposing overall project functionalities to the end user",
+  "author": "Devtech",
+  "license": "",
+  "main": "index.html",
+  "repository": {
+	"type": "git",
+	"url": ""
+  },
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+	
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  }
+}
